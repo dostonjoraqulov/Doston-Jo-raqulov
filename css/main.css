@@ -1,0 +1,587 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: o;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container{
+    width: 1200px;
+}
+
+.header__block{
+    display: flex;
+    justify-content: space-between;
+	align-items: center;
+}
+
+.logojon{
+    display: flex;
+	align-items: center;
+	justify-content: center;
+    height: 123px;
+}
+
+.navbar{
+    display: flex;
+	justify-content: center;
+}
+
+ul li a {
+    display: flex;
+    text-decoration: none;
+    list-style-type: disc;
+}
+
+li {
+	direction: none;
+}
+
+ul{
+    display: flex;
+    gap: 25px;
+    list-style-type: disc;
+}
+
+.Invite{
+    display: flex;
+    width: 110px;
+    height: 35px;
+    background-color: rgb(13, 13, 192);
+    border-radius: 12px;
+	align-items: center;
+	justify-content: center;
+}
+
+.Invite a{
+    display: flex;
+    color: #ffffff;
+    text-decoration: none;
+    align-items: center;
+}
+
+.ota{
+    margin: 25px 0px 0px 0px;
+}
+
+.finally{
+    display: flex;
+    width: 460px;
+    height: 100px;
+    font-size: 25px;
+}
+
+.katta-ota{ 
+    display: flex;
+    height: 150px;
+}
+.remmy{
+    display: flex;
+    width: 400px;
+    height: 97px;
+    font-size: 14px;
+    gap: 10px;
+}
+
+.request{
+    display: flex;
+    margin: 80px 0px 0px -8px;
+    border-radius: 11px;
+    background-color: rgb(13, 13, 192);
+    border-radius: 22%;
+    padding: 12px 12px;
+}
+
+.request a{ 
+    display: flex;
+    color: #ffffff;
+    text-decoration: none;
+    align-items: center;
+}
+
+button{
+    display: flex;
+
+}
+
+.opacha{
+    display: flex;
+    width: 67px;
+    height: 50px;
+    margin: -450px 0px 0px 550px;
+}
+
+.eczema{
+    display: flex;
+    margin: 700px 0px 0px 30px;
+}
+
+.Social{
+    display: flex;
+    color: rgb(19, 86, 231);
+    display: flex;
+    font-size: 10px;
+		margin: -550px 0px 0px 700px;
+}
+
+.test{   
+	  display: flex;
+    width: 389px;
+    height: 94px;
+		margin: 0px 0px 0px 700px;   
+}
+
+.with{
+	  display: flex;
+	  font-size: 18px;
+		margin: -30px 0px 0px 700px;
+}
+
+.with p{
+	  display: flex;
+    width: 437px;
+		height: 97px;
+}
+
+.you{
+	display: flex;
+	font-size: 18px;
+	margin: -10px 0px 0px 700px;
+}
+
+.you p{
+	display: flex;
+	width: 463px;
+	height: 129px;
+}
+
+.cover{
+	display: flex;
+	font-size: 30px;
+	margin: 300px 0px 0px 500px;
+}
+
+.cover p{
+	display: flex;
+	width: 700px;
+	height: 47px;
+}
+
+.how{
+	display: flex;
+	font-size: 30px;
+	margin: -70px 0px 0px 450px;
+}
+
+.how p{
+	display: flex;
+	width: 700px;
+	height: 47px;
+} 
+
+.bir{
+	display: flex;
+	width: 56px;
+	height: 56px;
+	border-radius: 50%;
+	background-color: blue;
+	margin: 150px 0px 0px 90px;
+}
+
+.bir h3{
+	display: flex;
+	color: #ffffff;
+	margin: 18px 0px 0px 23px;
+}
+
+.track{
+	display: flex;
+	font-size: 18px;
+	margin: 0px 0px 0px 90px;
+}
+
+.start{
+	display: flex;
+	font-size: 18px;
+	margin: -25px 0px 0px 90px;
+}
+
+.start p{
+	display: flex;
+  width: 535px;
+	height: 96px;
+}
+
+.acne{
+	display: flex;
+	margin: -300px 0px 0px 800px;
+}
+
+.ikki{
+	display: flex;
+	width: 56px;
+	height: 56px;
+	border-radius: 50%;
+	background-color: blue;
+	margin: 15px 0px 0px 90px;
+}
+
+.ikki h3{
+	display: flex;
+	color: #ffffff;
+	margin: 18px 0px 0px 23px;
+}
+
+.join{
+	display: flex;
+	font-size: 18px;
+	margin: 0px 0px 0px 90px;
+}
+
+.marking{
+	display: flex;
+	font-size: 18px;
+	width: 534px;
+	height: 160px;
+  margin: -19px 0px 0px 90px;
+}
+
+.sinus{
+	display: flex;
+	margin: -280px 0px 0px 800px;
+}
+
+.uch{
+	display: flex;
+	width: 56px;
+	height: 56px;
+	border-radius: 50%;
+	background-color: blue;
+	margin: 0px 0px 0px 90px;
+}
+
+.uch h3{
+	display: flex;
+	color: #ffffff;
+	margin: 18px 0px 0px 23px;
+}
+
+.help{
+	display: flex;
+	font-size: 18px;
+	margin: 0px 0px 0px 90px;
+}
+
+.find{
+	display: flex;
+	font-size: 18px;
+	width: 528px;
+	height: 128px;
+  margin: -19px 0px 0px 90px;
+}
+
+.your{
+	display: flex;
+	margin: -280px 0px 0px 800px;
+}
+
+.stop{
+	display: flex;
+	font-size: 28px;
+	color: #fbaca3;
+  margin: 200px 0px 0px 350px;
+}
+
+.curable{
+	display: flex;
+	font-size: 28px;
+	color: #fbaca3;
+  margin: -40px 0px 0px 393px;
+}
+
+.holacha{
+	display: flex;
+	margin: 90px 0px 0px 444px;;
+}
+
+.holacha h3{
+	display: flex;
+	font-size: 20px;
+	color: rgb(143, 177, 177);
+}
+
+.home{
+	display: flex;
+	margin: 0px 0px 0px 100px;
+}
+
+.tracking{
+	display: flex;
+	font-size: 10px;
+	color: rgb(19, 86, 231);
+	margin: -550px 0px 0px 700px;
+}
+
+.trackk{
+	display: flex;
+	font-size: 40px;
+	margin: -35px 0px 0px 700px;
+}
+
+.helps{
+	display: flex;
+	margin: -35px 0px 0px 700px;
+	width: 468px;
+	height: 97px;
+}
+
+.helps p{
+	display: flex;
+	font-size: 20px;
+}
+
+.this{
+	display: flex;
+	margin: -5px 0px 0px 700px;
+	width: 439px;
+	height: 129px;
+}
+
+.this p{
+	display: flex;
+	font-size: 20px;
+}
+
+.treatments{
+	display: flex;
+	font-size: 15px;
+	color: rgb(19, 86, 231);
+	margin: 400px 0px 0px 150px;
+}
+
+.git{
+	display: flex;
+	width: 429px;
+	height: 65px;
+	font-size: 15px;
+	margin: 70px 0px 0px 150px;
+}
+
+.findd{
+	display: flex;
+	width: 354px;
+	height: 94px;
+	font-size: 40px;
+	margin: -49px 0px 0px 150px;
+}
+
+.work{
+	display: flex;
+	width: 450px;
+	height: 97px;
+	margin: -5px 0px 0px 150px;
+}
+
+.work p{
+	display: flex;
+	font-size: 18px;
+}
+
+.acid{
+	display: flex;
+	margin: -400px 0px 0px 700px;
+}
+
+.doctor{
+	display: flex;
+	margin: 95px 0px 0px 150px
+}
+
+.support{	
+  display: flex;
+  font-size: 15px;
+  color: rgb(19, 86, 231);
+  margin: -600px 0px 0px 700px;
+}
+
+.skin{
+	display: flex;
+	width: 428px;
+	height: 140;
+	margin: -55px 0px 0px 700px;
+}
+
+.skin h4{
+	display: flex;
+  font-size: 40px;
+}
+
+.can{
+	display: flex;
+	margin: -55px 0px 0px 700px;
+}
+
+.can h4{
+	display: flex;
+	font-size: 18px;
+}
+
+.alone{
+	display: flex;
+	width: 500px;
+	height: 65px;
+	margin: -30px 0px 0px 700px;
+}
+
+.alone h4{
+	display: flex;
+	font-size: 12px;
+}
+
+.frame{
+	display: flex;
+	margin: 65px 0px 0px 700px;
+}
+
+.class{
+	display: flex;
+	margin: -65px 0px 0px 760px;
+}
+
+.class h4{
+	display: flex;
+	font-size: 19px;
+}
+
+.kosa{
+	display: flex;
+	margin: 40px 0px 0px 700px;
+}
+
+.qoshiq{
+	display: flex;
+	margin: -60px 0px 0px 760px
+}
+
+.qoshiq h4{
+	display: flex;
+	font-size: 19px;
+}
+
+.about{
+	display: flex;
+	font-size: 15px;
+	color: rgb(19, 86, 231);
+	margin: 200px 0px 0px 550px;
+}
+
+.is{
+	display: flex;
+	font-size: 30px;
+	margin: -20px 0px 0px 410px;
+}
+
+.everyone{
+	display: flex;
+	font-size: 30px;
+	margin: -70px 0px 0px 450px;
+}
+
+.all{
+	display: flex;
+	margin: -20px 0px 0px 415px;
+}
+
+.pain{
+	display: flex;
+	margin: -20px 0px 0px 463px;
+}
+
+.kal{
+	display: flex;
+	margin: 0px 0px 0px 70px;
+}
+
+.odamcha{
+	margin:-600px 0px 0px 700px;
+}
+
+.odamcha p{
+	display: flex;
+	font-size: 20px;
+}
+
+.give{
+	display: flex;
+	width: 418px;
+	height: 97px;
+	margin: -20px 0px 0px 700px;
+}
+
+.give p{
+	display: flex;
+	font-size: 20px;
+}
+
+.yurak{
+	margin: 80px 0px 0px 680px;
+}
+
+.up{
+	display: flex;
+	margin: -35px 0px 0px 700px ;
+}
+
+.up p{
+	display: flex;
+	font-size: 20px;
+}
+
+.just{
+	display: flex;
+	width: 440px;
+	height: 129px;
+	margin: -20px 0px 0px 700px;
+}
+
+.just p{
+	display: flex;
+	font-size: 20px;
+}
+
+.conditions{
+	display: flex;
+	font-size: 15px;
+	color: rgb(19, 86, 231);
+	margin: 400px 0px 0px 600px;
+}
+
+.supportt{
+    display: flex;
+	margin: -60px 0px 0px 300px ;
+}
+
+.supportt h4{
+	display: flex;
+	font-size: 40px;
+}
+
+.youre{
+	display: flex;
+	margin: -70px 0px 0px 270px;
+}
+
+.plus{
+	display: flex;
+	margin: 50px 0px 0px 130px;
+}
+
+.minus{
+	display: flex;
+	margin: 50px 0px 0px 130px;
+}
